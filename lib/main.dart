@@ -1,4 +1,5 @@
 import 'package:docdoc/core/helpers/on_generate_route.dart';
+import 'package:docdoc/features/on_boarding/presentation/views/widgets/on_boarding_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class DocdocApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Inter', colorScheme: ColorScheme.light()),
       onGenerateRoute: onGenerateRoute,
+      initialRoute: OnBoardingView.routeName,
     );
   }
 }
