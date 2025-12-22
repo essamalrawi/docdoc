@@ -6,13 +6,25 @@ class Assets {
   /// assets/images/apple_logo.svg
   static const String imagesAppleLogo = "assets/images/apple_logo.svg";
 
+  /// Assets for imagesArrowDown
+  /// assets/images/arrow-down.svg
+  static const String imagesArrowDown = "assets/images/arrow-down.svg";
+
   /// Assets for imagesDocdocLogo
   /// assets/images/docdoc_logo.svg
   static const String imagesDocdocLogo = "assets/images/docdoc_logo.svg";
 
+  /// Assets for imagesEngland
+  /// assets/images/england.svg
+  static const String imagesEngland = "assets/images/england.svg";
+
   /// Assets for imagesFacebookLogo
   /// assets/images/facebook_logo.svg
   static const String imagesFacebookLogo = "assets/images/facebook_logo.svg";
+
+  /// Assets for imagesFlag
+  /// assets/images/flag.png
+  static const String imagesFlag = "assets/images/flag.png";
 
   /// Assets for imagesGoogleLogo
   /// assets/images/google_logo.svg

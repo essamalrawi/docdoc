@@ -1,6 +1,7 @@
 import 'package:docdoc/constants/assets.dart';
 import 'package:docdoc/core/utils/app_styles.dart';
 import 'package:docdoc/core/widgets/custom_button.dart';
+import 'package:docdoc/features/auth/presentation/views/widgets/country_text_field.dart';
 import 'package:docdoc/features/auth/presentation/views/widgets/custom_sign_in_container_icon.dart';
 import 'package:docdoc/features/auth/presentation/views/widgets/custom_text_field.dart';
 import 'package:flutter/gestures.dart';
@@ -48,6 +49,8 @@ class _SignUpViewBodyState extends State<SignUpViewBody> {
                 CustomTextField(hint: "Email"),
                 SizedBox(height: 16),
                 CustomTextField(hint: "Password"),
+                SizedBox(height: 16),
+                CountryTextField(),
                 SizedBox(height: 16),
                 Row(
                   children: [
