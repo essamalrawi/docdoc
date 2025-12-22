@@ -1,6 +1,7 @@
 import 'package:docdoc/constants/assets.dart';
 import 'package:docdoc/core/utils/app_styles.dart';
 import 'package:docdoc/core/widgets/custom_button.dart';
+import 'package:docdoc/features/auth/presentation/views/fill_your_profile_view.dart';
 import 'package:docdoc/features/auth/presentation/views/widgets/country_text_field.dart';
 import 'package:docdoc/features/auth/presentation/views/widgets/custom_sign_in_container_icon.dart';
 import 'package:docdoc/features/auth/presentation/views/widgets/custom_text_field.dart';
@@ -57,7 +58,12 @@ class _SignUpViewBodyState extends State<SignUpViewBody> {
                     Expanded(
                       child: CustomButton(
                         text: "Create Account",
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushNamed(
+                            context,
+                            FillYourProfileView.routeName,
+                          );
+                        },
                       ),
                     ),
                   ],

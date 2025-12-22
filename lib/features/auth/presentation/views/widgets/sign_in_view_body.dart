@@ -1,6 +1,7 @@
 import 'package:docdoc/constants/assets.dart';
 import 'package:docdoc/core/utils/app_styles.dart';
 import 'package:docdoc/core/widgets/custom_button.dart';
+import 'package:docdoc/features/auth/presentation/views/forget_password_view.dart';
 import 'package:docdoc/features/auth/presentation/views/sign_up_view.dart';
 import 'package:docdoc/features/auth/presentation/views/widgets/custom_check_box.dart';
 import 'package:docdoc/features/auth/presentation/views/widgets/custom_sign_in_container_icon.dart';
@@ -74,11 +75,20 @@ class _SignInViewBodyState extends State<SignInViewBody> {
                       ],
                     ),
                     Spacer(),
-                    Text(
-                      "Forgot Password",
-                      style: AppStyles.styleRegular12px(
-                        context,
-                      ).copyWith(color: const Color(0xFF247CFF), height: 1.50),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(
+                          context,
+                          ForgetPasswordView.routeName,
+                        );
+                      },
+                      child: Text(
+                        "Forgot Password",
+                        style: AppStyles.styleRegular12px(context).copyWith(
+                          color: const Color(0xFF247CFF),
+                          height: 1.50,
+                        ),
+                      ),
                     ),
                   ],
                 ),
