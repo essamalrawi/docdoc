@@ -1,5 +1,5 @@
 import 'package:docdoc/core/helpers/on_generate_route.dart';
-import 'package:docdoc/features/home/presentation/views/widgets/home_view.dart';
+import 'package:docdoc/features/home/presentation/views/home_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
