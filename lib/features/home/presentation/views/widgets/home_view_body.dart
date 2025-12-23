@@ -1,9 +1,6 @@
-import 'package:docdoc/core/utils/app_styles.dart';
 import 'package:docdoc/features/home/presentation/views/widgets/custom_home_app_bar.dart';
+import 'package:docdoc/features/home/presentation/views/widgets/doctor_speciality_section.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-
-import '../../../../../constants/assets.dart';
 import 'find_nearby_section.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -23,66 +20,6 @@ class HomeViewBody extends StatelessWidget {
           DoctorSpecialitySection(),
         ],
       ),
-    );
-  }
-}
-
-class DoctorSpecialitySection extends StatelessWidget {
-  const DoctorSpecialitySection({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text(
-              'Doctor Speciality',
-              style: AppStyles.styleRegular18px(context).copyWith(
-                color: const Color(0xFF242424),
-                fontFamily: 'Inter',
-                fontWeight: FontWeight.w600,
-                height: 1.60,
-              ),
-            ),
-            Text(
-              'See All',
-              textAlign: TextAlign.right,
-              style: AppStyles.styleRegular12px(
-                context,
-              ).copyWith(color: const Color(0xFF247CFF), height: 1.50),
-            ),
-          ],
-        ),
-
-        SpecialityIcon(image: Assets.imagesIconsKidneys, text: "General"),
-      ],
-    );
-  }
-}
-
-class SpecialityIcon extends StatelessWidget {
-  const SpecialityIcon({super.key, required this.image, required this.text});
-
-  final String image;
-  final String text;
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Container(
-          width: 56,
-          height: 56,
-          decoration: BoxDecoration(
-            color: Color(0xFFF4F8FF),
-            borderRadius: BorderRadius.circular(56),
-          ),
-
-          child: SvgPicture.asset(image),
-        ),
-      ],
     );
   }
 }
