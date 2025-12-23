@@ -1,7 +1,9 @@
 import 'package:docdoc/core/utils/app_styles.dart';
 import 'package:docdoc/features/home/presentation/views/widgets/custom_home_app_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
+import '../../../../../constants/assets.dart';
 import 'find_nearby_section.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -52,6 +54,33 @@ class DoctorSpecialitySection extends StatelessWidget {
               ).copyWith(color: const Color(0xFF247CFF), height: 1.50),
             ),
           ],
+        ),
+
+        SpecialityIcon(image: Assets.imagesIconsKidneys, text: "General"),
+      ],
+    );
+  }
+}
+
+class SpecialityIcon extends StatelessWidget {
+  const SpecialityIcon({super.key, required this.image, required this.text});
+
+  final String image;
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Container(
+          width: 56,
+          height: 56,
+          decoration: BoxDecoration(
+            color: Color(0xFFF4F8FF),
+            borderRadius: BorderRadius.circular(56),
+          ),
+
+          child: SvgPicture.asset(image),
         ),
       ],
     );
