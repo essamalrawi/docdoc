@@ -4,6 +4,7 @@ import 'package:docdoc/features/auth/presentation/views/forget_password_view.dar
 import 'package:docdoc/features/auth/presentation/views/otp_verfication_view.dart';
 import 'package:docdoc/features/auth/presentation/views/sigh_in_view.dart';
 import 'package:docdoc/features/auth/presentation/views/sign_up_view.dart';
+import 'package:docdoc/features/home/presentation/views/widgets/home_view.dart';
 import 'package:docdoc/features/on_boarding/presentation/views/widgets/on_boarding_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,8 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
       return CupertinoPageRoute(builder: (context) => OtpVerficationView());
     case FaceIdView.routeName:
       return CupertinoPageRoute(builder: (context) => FaceIdView());
+    case HomeView.routeName:
+      return CupertinoPageRoute(builder: (context) => HomeView());
 
     default:
       return MaterialPageRoute(builder: (context) => const Scaffold());

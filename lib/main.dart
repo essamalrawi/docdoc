@@ -1,5 +1,5 @@
 import 'package:docdoc/core/helpers/on_generate_route.dart';
-import 'package:docdoc/features/on_boarding/presentation/views/widgets/on_boarding_view.dart';
+import 'package:docdoc/features/home/presentation/views/widgets/home_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,7 +8,6 @@ void main() {
 
 class DocdocApp extends StatelessWidget {
   const DocdocApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +15,7 @@ class DocdocApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Inter', colorScheme: ColorScheme.light()),
       onGenerateRoute: onGenerateRoute,
-      initialRoute: OnBoardingView.routeName,
+      initialRoute: HomeView.routeName,
     );
   }
 }

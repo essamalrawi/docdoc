@@ -26,6 +26,10 @@ class Assets {
   /// assets/images/facebook_logo.svg
   static const String imagesFacebookLogo = "assets/images/facebook_logo.svg";
 
+  /// Assets for imagesFindNearbyBackgroundSection
+  /// assets/images/find_nearby_background_section.svg
+  static const String imagesFindNearbyBackgroundSection = "assets/images/find_nearby_background_section.svg";
+
   /// Assets for imagesFlag
   /// assets/images/flag.png
   static const String imagesFlag = "assets/images/flag.png";
@@ -33,6 +37,10 @@ class Assets {
   /// Assets for imagesGoogleLogo
   /// assets/images/google_logo.svg
   static const String imagesGoogleLogo = "assets/images/google_logo.svg";
+
+  /// Assets for imagesIconsBell
+  /// assets/images/icons/bell.svg
+  static const String imagesIconsBell = "assets/images/icons/bell.svg";
 
   /// Assets for imagesIconsCheck
   /// assets/images/icons/check.svg
@@ -49,6 +57,10 @@ class Assets {
   /// Assets for imagesNativeSplashViewAndroid12
   /// assets/images/native_splash_view_android_12.png
   static const String imagesNativeSplashViewAndroid12 = "assets/images/native_splash_view_android_12.png";
+
+  /// Assets for imagesNurse
+  /// assets/images/nurse.png
+  static const String imagesNurse = "assets/images/nurse.png";
 
   /// Assets for imagesOnBoardingPic
   /// assets/images/on_boarding_pic.png
