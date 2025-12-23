@@ -38,17 +38,33 @@ class Assets {
   /// assets/images/google_logo.svg
   static const String imagesGoogleLogo = "assets/images/google_logo.svg";
 
+  /// Assets for imagesIconsBabe
+  /// assets/images/icons/babe.svg
+  static const String imagesIconsBabe = "assets/images/icons/babe.svg";
+
   /// Assets for imagesIconsBell
   /// assets/images/icons/bell.svg
   static const String imagesIconsBell = "assets/images/icons/bell.svg";
+
+  /// Assets for imagesIconsBrain
+  /// assets/images/icons/brain.svg
+  static const String imagesIconsBrain = "assets/images/icons/brain.svg";
 
   /// Assets for imagesIconsCheck
   /// assets/images/icons/check.svg
   static const String imagesIconsCheck = "assets/images/icons/check.svg";
 
+  /// Assets for imagesIconsDoctor
+  /// assets/images/icons/doctor.svg
+  static const String imagesIconsDoctor = "assets/images/icons/doctor.svg";
+
   /// Assets for imagesIconsFrame
   /// assets/images/icons/frame.png
   static const String imagesIconsFrame = "assets/images/icons/frame.png";
+
+  /// Assets for imagesIconsKidneys
+  /// assets/images/icons/kidneys.svg
+  static const String imagesIconsKidneys = "assets/images/icons/kidneys.svg";
 
   /// Assets for imagesNativeSplash
   /// assets/images/native_splash.png
