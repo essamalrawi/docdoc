@@ -66,6 +66,10 @@ class Assets {
   /// assets/images/icons/kidneys.png
   static const String imagesIconsKidneys = "assets/images/icons/kidneys.png";
 
+  /// Assets for imagesIconsStar
+  /// assets/images/icons/star.svg
+  static const String imagesIconsStar = "assets/images/icons/star.svg";
+
   /// Assets for imagesNativeSplash
   /// assets/images/native_splash.png
   static const String imagesNativeSplash = "assets/images/native_splash.png";
@@ -81,6 +85,10 @@ class Assets {
   /// Assets for imagesOnBoardingPic
   /// assets/images/on_boarding_pic.png
   static const String imagesOnBoardingPic = "assets/images/on_boarding_pic.png";
+
+  /// Assets for imagesPerson
+  /// assets/images/person.png
+  static const String imagesPerson = "assets/images/person.png";
 
   /// Assets for imagesProfilePicture
   /// assets/images/profile_picture.png
