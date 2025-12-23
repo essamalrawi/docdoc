@@ -28,7 +28,7 @@ class FindNearbySection extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Book and\nschedule with nearest doctor',
+                      'Book and\nschedule with\nnearest doctor',
                       style: AppStyles.styleRegular18px(context).copyWith(
                         color: Colors.white,
                         fontWeight: FontWeight.w500,
@@ -60,13 +60,23 @@ class FindNearbySection extends StatelessWidget {
                 ),
               ),
             ),
+
             Expanded(
-              child: Transform.translate(
-                offset: const Offset(0, -14),
-                child: Transform.scale(
-                  scale: 1.15,
-                  child: Image.asset(Assets.imagesNurse, fit: BoxFit.contain),
-                ),
+              child: Stack(
+                clipBehavior: Clip.none,
+                children: [
+                  Positioned(
+                    top: -30,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    child: Image.asset(
+                      Assets.imagesNurse,
+                      fit: BoxFit.contain,
+                      alignment: Alignment.topCenter,
+                    ),
+                  ),
+                ],
               ),
             ),
           ],

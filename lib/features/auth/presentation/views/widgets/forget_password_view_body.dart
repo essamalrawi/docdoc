@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:docdoc/core/utils/app_styles.dart';
 import 'package:docdoc/core/widgets/custom_button.dart';
 import 'package:docdoc/features/auth/presentation/views/widgets/custom_text_field.dart';
