@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:docdoc/features/main/presentation/views/widgets/custom_bottom_navigation_bar.dart';
 import 'package:docdoc/features/main/presentation/views/widgets/main_view_body.dart';
 import 'package:flutter/material.dart';

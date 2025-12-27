@@ -1,10 +1,7 @@
-import 'dart:developer';
-
 import 'package:docdoc/constants/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../../../domain/entites/bottom_navigation_bar_entity.dart';
 
 class CustomBottomNavigationBar extends StatefulWidget {
   const CustomBottomNavigationBar({super.key, required this.onItemTapped});
@@ -28,10 +25,34 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          SvgPicture.asset(Assets.imagesIconsHome),
-          SvgPicture.asset(Assets.imagesIconsMessageText),
+          InkWell(
+            onTap: () {
+              selectedIndex = 0;
+              widget.onItemTapped(selectedIndex);
+            },
+            child: selectedIndex == 0
+                ? SvgPicture.asset(Assets.imagesIconsHomeActive)
+                : SvgPicture.asset(Assets.imagesIconsHome),
+          ),
+          InkWell(
+            onTap: () {
+              selectedIndex = 1;
+              widget.onItemTapped(selectedIndex);
+            },
+            child: selectedIndex == 1
+                ? SvgPicture.asset(Assets.imagesIconsMessageTextActive)
+                : SvgPicture.asset(Assets.imagesIconsMessageText),
+          ),
           const SizedBox(width: 72),
-          SvgPicture.asset(Assets.imagesIconsCalendarActive),
+          InkWell(
+            onTap: () {
+              selectedIndex = 2;
+              widget.onItemTapped(selectedIndex);
+            },
+            child: selectedIndex == 2
+                ? SvgPicture.asset(Assets.imagesIconsCalendarActive)
+                : SvgPicture.asset(Assets.imagesIconsCalendar),
+          ),
           ProfileNavigationBarWidget(),
         ],
       ),
