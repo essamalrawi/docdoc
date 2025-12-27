@@ -10,6 +10,14 @@ class Assets {
   /// assets/images/arrow-down.svg
   static const String imagesArrowDown = "assets/images/arrow-down.svg";
 
+  /// Assets for imagesCancelledCalendar
+  /// assets/images/cancelled_calendar.svg
+  static const String imagesCancelledCalendar = "assets/images/cancelled_calendar.svg";
+
+  /// Assets for imagesChangedCalendar
+  /// assets/images/changed_calendar.svg
+  static const String imagesChangedCalendar = "assets/images/changed_calendar.svg";
+
   /// Assets for imagesDocdocLogo
   /// assets/images/docdoc_logo.svg
   static const String imagesDocdocLogo = "assets/images/docdoc_logo.svg";
@@ -37,6 +45,10 @@ class Assets {
   /// Assets for imagesGoogleLogo
   /// assets/images/google_logo.svg
   static const String imagesGoogleLogo = "assets/images/google_logo.svg";
+
+  /// Assets for imagesIconsArrow
+  /// assets/images/icons/arrow.svg
+  static const String imagesIconsArrow = "assets/images/icons/arrow.svg";
 
   /// Assets for imagesIconsBabe
   /// assets/images/icons/babe.png
@@ -114,6 +126,10 @@ class Assets {
   /// assets/images/on_boarding_pic.png
   static const String imagesOnBoardingPic = "assets/images/on_boarding_pic.png";
 
+  /// Assets for imagesPayment
+  /// assets/images/payment.svg
+  static const String imagesPayment = "assets/images/payment.svg";
+
   /// Assets for imagesPerson
   /// assets/images/person.png
   static const String imagesPerson = "assets/images/person.png";
@@ -126,8 +142,24 @@ class Assets {
   /// assets/images/profile_picture.png
   static const String imagesProfilePicture = "assets/images/profile_picture.png";
 
+  /// Assets for imagesRedCircle
+  /// assets/images/red_circle.svg
+  static const String imagesRedCircle = "assets/images/red_circle.svg";
+
   /// Assets for imagesSplashScreenBackground
   /// assets/images/splash_screen_background.png
   static const String imagesSplashScreenBackground = "assets/images/splash_screen_background.png";
+
+  /// Assets for imagesSuccessCalendar
+  /// assets/images/success_calendar.svg
+  static const String imagesSuccessCalendar = "assets/images/success_calendar.svg";
+
+  /// Assets for imagesVideo
+  /// assets/images/video.svg
+  static const String imagesVideo = "assets/images/video.svg";
+
+  /// Assets for imagesWallet
+  /// assets/images/wallet.svg
+  static const String imagesWallet = "assets/images/wallet.svg";
 }
 
