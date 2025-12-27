@@ -9,6 +9,8 @@ import 'package:docdoc/features/on_boarding/presentation/views/widgets/on_boardi
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../features/main/presentation/views/main_view.dart';
+
 Route<dynamic> onGenerateRoute(RouteSettings settings) {
   switch (settings.name) {
     case OnBoardingView.routeName:
@@ -27,6 +29,8 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
       return CupertinoPageRoute(builder: (context) => FaceIdView());
     case HomeView.routeName:
       return CupertinoPageRoute(builder: (context) => HomeView());
+    case MainView.routeName:
+      return CupertinoPageRoute(builder: (context) => MainView());
 
     default:
       return MaterialPageRoute(builder: (context) => const Scaffold());

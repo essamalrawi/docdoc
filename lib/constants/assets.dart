@@ -50,6 +50,14 @@ class Assets {
   /// assets/images/icons/brain.png
   static const String imagesIconsBrain = "assets/images/icons/brain.png";
 
+  /// Assets for imagesIconsCalendar
+  /// assets/images/icons/calendar.svg
+  static const String imagesIconsCalendar = "assets/images/icons/calendar.svg";
+
+  /// Assets for imagesIconsCalendarActive
+  /// assets/images/icons/calendar_active.svg
+  static const String imagesIconsCalendarActive = "assets/images/icons/calendar_active.svg";
+
   /// Assets for imagesIconsCheck
   /// assets/images/icons/check.svg
   static const String imagesIconsCheck = "assets/images/icons/check.svg";
@@ -62,9 +70,29 @@ class Assets {
   /// assets/images/icons/frame.png
   static const String imagesIconsFrame = "assets/images/icons/frame.png";
 
+  /// Assets for imagesIconsHome
+  /// assets/images/icons/home.svg
+  static const String imagesIconsHome = "assets/images/icons/home.svg";
+
+  /// Assets for imagesIconsHomeActive
+  /// assets/images/icons/home_active.svg
+  static const String imagesIconsHomeActive = "assets/images/icons/home_active.svg";
+
   /// Assets for imagesIconsKidneys
   /// assets/images/icons/kidneys.png
   static const String imagesIconsKidneys = "assets/images/icons/kidneys.png";
+
+  /// Assets for imagesIconsMessageText
+  /// assets/images/icons/message_text.svg
+  static const String imagesIconsMessageText = "assets/images/icons/message_text.svg";
+
+  /// Assets for imagesIconsMessageTextActive
+  /// assets/images/icons/message_text_active.svg
+  static const String imagesIconsMessageTextActive = "assets/images/icons/message_text_active.svg";
+
+  /// Assets for imagesIconsSearch
+  /// assets/images/icons/search.svg
+  static const String imagesIconsSearch = "assets/images/icons/search.svg";
 
   /// Assets for imagesIconsStar
   /// assets/images/icons/star.svg
@@ -89,6 +117,10 @@ class Assets {
   /// Assets for imagesPerson
   /// assets/images/person.png
   static const String imagesPerson = "assets/images/person.png";
+
+  /// Assets for imagesPersonBar
+  /// assets/images/person_bar.png
+  static const String imagesPersonBar = "assets/images/person_bar.png";
 
   /// Assets for imagesProfilePicture
   /// assets/images/profile_picture.png

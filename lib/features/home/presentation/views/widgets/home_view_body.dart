@@ -35,7 +35,7 @@ class HomeViewBody extends StatelessWidget {
                 padding: const EdgeInsets.only(bottom: 24),
                 child: RecommendationDoctorCard(),
               );
-            }, childCount: 2),
+            }, childCount: 12),
           ),
         ],
       ),
