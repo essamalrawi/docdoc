@@ -106,6 +106,14 @@ class Assets {
   /// assets/images/icons/search.svg
   static const String imagesIconsSearch = "assets/images/icons/search.svg";
 
+  /// Assets for imagesIconsSearchNearby
+  /// assets/images/icons/search_nearby.svg
+  static const String imagesIconsSearchNearby = "assets/images/icons/search_nearby.svg";
+
+  /// Assets for imagesIconsSetting
+  /// assets/images/icons/setting.svg
+  static const String imagesIconsSetting = "assets/images/icons/setting.svg";
+
   /// Assets for imagesIconsStar
   /// assets/images/icons/star.svg
   static const String imagesIconsStar = "assets/images/icons/star.svg";
@@ -117,6 +125,10 @@ class Assets {
   /// Assets for imagesNativeSplashViewAndroid12
   /// assets/images/native_splash_view_android_12.png
   static const String imagesNativeSplashViewAndroid12 = "assets/images/native_splash_view_android_12.png";
+
+  /// Assets for imagesNearbyScreenBg
+  /// assets/images/nearby_screen_bg.png
+  static const String imagesNearbyScreenBg = "assets/images/nearby_screen_bg.png";
 
   /// Assets for imagesNurse
   /// assets/images/nurse.png

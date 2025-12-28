@@ -1,6 +1,6 @@
+import 'package:docdoc/features/home/presentation/views/find_nearby_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg_provider/flutter_svg_provider.dart';
-
 import '../../../../../constants/assets.dart';
 import '../../../../../core/utils/app_styles.dart';
 
@@ -36,23 +36,28 @@ class FindNearbySection extends StatelessWidget {
                       ),
                     ),
                     SizedBox(height: 15),
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 18,
-                        vertical: 10,
-                      ),
-                      decoration: ShapeDecoration(
-                        color: Colors.white,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(48),
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushNamed(context, FindNearbyView.routeName);
+                      },
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 18,
+                          vertical: 10,
                         ),
-                      ),
+                        decoration: ShapeDecoration(
+                          color: Colors.white,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(48),
+                          ),
+                        ),
 
-                      child: Text(
-                        'Find Nearby',
-                        style: AppStyles.styleRegular12px(context).copyWith(
-                          color: const Color(0xFF247CFF),
-                          height: 1.50,
+                        child: Text(
+                          'Find Nearby',
+                          style: AppStyles.styleRegular12px(context).copyWith(
+                            color: const Color(0xFF247CFF),
+                            height: 1.50,
+                          ),
                         ),
                       ),
                     ),

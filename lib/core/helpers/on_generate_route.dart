@@ -9,6 +9,7 @@ import 'package:docdoc/features/on_boarding/presentation/views/widgets/on_boardi
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../features/home/presentation/views/find_nearby_view.dart';
 import '../../features/home/presentation/views/notification_view.dart';
 import '../../features/main/presentation/views/main_view.dart';
 
@@ -34,6 +35,8 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
       return CupertinoPageRoute(builder: (context) => MainView());
     case NotificationView.routeName:
       return CupertinoPageRoute(builder: (context) => NotificationView());
+    case FindNearbyView.routeName:
+      return CupertinoPageRoute(builder: (context) => FindNearbyView());
 
     default:
       return MaterialPageRoute(builder: (context) => const Scaffold());
