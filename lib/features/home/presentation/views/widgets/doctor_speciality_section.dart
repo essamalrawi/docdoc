@@ -1,5 +1,6 @@
 import 'package:docdoc/constants/assets.dart';
 import 'package:docdoc/core/utils/app_styles.dart';
+import 'package:docdoc/features/home/presentation/views/doctor_speciality_view.dart';
 import 'package:flutter/material.dart';
 
 import 'speciality_icon_widget.dart';
@@ -23,12 +24,17 @@ class DoctorSpecialitySection extends StatelessWidget {
                 height: 1.60,
               ),
             ),
-            Text(
-              'See All',
-              textAlign: TextAlign.right,
-              style: AppStyles.styleRegular12px(
-                context,
-              ).copyWith(color: const Color(0xFF247CFF), height: 1.50),
+            InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, DoctorSpecialityView.routeName);
+              },
+              child: Text(
+                'See All',
+                textAlign: TextAlign.right,
+                style: AppStyles.styleRegular12px(
+                  context,
+                ).copyWith(color: const Color(0xFF247CFF), height: 1.50),
+              ),
             ),
           ],
         ),
@@ -39,20 +45,14 @@ class DoctorSpecialitySection extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
+              SpecialityIconWidget(image: Assets.imagesDoctor, text: "General"),
               SpecialityIconWidget(
-                image: Assets.imagesIconsDoctor,
-                text: "General",
-              ),
-              SpecialityIconWidget(
-                image: Assets.imagesIconsBrain,
+                image: Assets.imagesBrain,
                 text: "Neurologic",
               ),
+              SpecialityIconWidget(image: Assets.imagesBabe, text: "Pediatric"),
               SpecialityIconWidget(
-                image: Assets.imagesIconsBabe,
-                text: "Pediatric",
-              ),
-              SpecialityIconWidget(
-                image: Assets.imagesIconsKidneys,
+                image: Assets.imagesKidneys,
                 text: "Radiology",
               ),
             ],

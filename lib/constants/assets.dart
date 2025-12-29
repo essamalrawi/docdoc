@@ -10,21 +10,45 @@ class Assets {
   /// assets/images/arrow-down.svg
   static const String imagesArrowDown = "assets/images/arrow-down.svg";
 
+  /// Assets for imagesBabe
+  /// assets/images/babe.png
+  static const String imagesBabe = "assets/images/babe.png";
+
+  /// Assets for imagesBrain
+  /// assets/images/brain.png
+  static const String imagesBrain = "assets/images/brain.png";
+
   /// Assets for imagesCancelledCalendar
   /// assets/images/cancelled_calendar.svg
   static const String imagesCancelledCalendar = "assets/images/cancelled_calendar.svg";
+
+  /// Assets for imagesCardiologist
+  /// assets/images/cardiologist.png
+  static const String imagesCardiologist = "assets/images/cardiologist.png";
 
   /// Assets for imagesChangedCalendar
   /// assets/images/changed_calendar.svg
   static const String imagesChangedCalendar = "assets/images/changed_calendar.svg";
 
+  /// Assets for imagesDentistry
+  /// assets/images/dentistry.png
+  static const String imagesDentistry = "assets/images/dentistry.png";
+
   /// Assets for imagesDocdocLogo
   /// assets/images/docdoc_logo.svg
   static const String imagesDocdocLogo = "assets/images/docdoc_logo.svg";
 
+  /// Assets for imagesDoctor
+  /// assets/images/doctor.png
+  static const String imagesDoctor = "assets/images/doctor.png";
+
   /// Assets for imagesEngland
   /// assets/images/england.svg
   static const String imagesEngland = "assets/images/england.svg";
+
+  /// Assets for imagesEnt
+  /// assets/images/ent.png
+  static const String imagesEnt = "assets/images/ent.png";
 
   /// Assets for imagesFaceId
   /// assets/images/face_id.svg
@@ -46,21 +70,21 @@ class Assets {
   /// assets/images/google_logo.svg
   static const String imagesGoogleLogo = "assets/images/google_logo.svg";
 
+  /// Assets for imagesHepatology
+  /// assets/images/hepatology.png
+  static const String imagesHepatology = "assets/images/hepatology.png";
+
+  /// Assets for imagesHistologist
+  /// assets/images/histologist.png
+  static const String imagesHistologist = "assets/images/histologist.png";
+
   /// Assets for imagesIconsArrow
   /// assets/images/icons/arrow.svg
   static const String imagesIconsArrow = "assets/images/icons/arrow.svg";
 
-  /// Assets for imagesIconsBabe
-  /// assets/images/icons/babe.png
-  static const String imagesIconsBabe = "assets/images/icons/babe.png";
-
   /// Assets for imagesIconsBell
   /// assets/images/icons/bell.svg
   static const String imagesIconsBell = "assets/images/icons/bell.svg";
-
-  /// Assets for imagesIconsBrain
-  /// assets/images/icons/brain.png
-  static const String imagesIconsBrain = "assets/images/icons/brain.png";
 
   /// Assets for imagesIconsCalendar
   /// assets/images/icons/calendar.svg
@@ -74,10 +98,6 @@ class Assets {
   /// assets/images/icons/check.svg
   static const String imagesIconsCheck = "assets/images/icons/check.svg";
 
-  /// Assets for imagesIconsDoctor
-  /// assets/images/icons/doctor.png
-  static const String imagesIconsDoctor = "assets/images/icons/doctor.png";
-
   /// Assets for imagesIconsFrame
   /// assets/images/icons/frame.png
   static const String imagesIconsFrame = "assets/images/icons/frame.png";
@@ -89,10 +109,6 @@ class Assets {
   /// Assets for imagesIconsHomeActive
   /// assets/images/icons/home_active.svg
   static const String imagesIconsHomeActive = "assets/images/icons/home_active.svg";
-
-  /// Assets for imagesIconsKidneys
-  /// assets/images/icons/kidneys.png
-  static const String imagesIconsKidneys = "assets/images/icons/kidneys.png";
 
   /// Assets for imagesIconsMessageText
   /// assets/images/icons/message_text.svg
@@ -118,6 +134,14 @@ class Assets {
   /// assets/images/icons/star.svg
   static const String imagesIconsStar = "assets/images/icons/star.svg";
 
+  /// Assets for imagesIntestine
+  /// assets/images/intestine.png
+  static const String imagesIntestine = "assets/images/intestine.png";
+
+  /// Assets for imagesKidneys
+  /// assets/images/kidneys.png
+  static const String imagesKidneys = "assets/images/kidneys.png";
+
   /// Assets for imagesNativeSplash
   /// assets/images/native_splash.png
   static const String imagesNativeSplash = "assets/images/native_splash.png";
@@ -138,6 +162,10 @@ class Assets {
   /// assets/images/on_boarding_pic.png
   static const String imagesOnBoardingPic = "assets/images/on_boarding_pic.png";
 
+  /// Assets for imagesOptometry
+  /// assets/images/optometry.png
+  static const String imagesOptometry = "assets/images/optometry.png";
+
   /// Assets for imagesPayment
   /// assets/images/payment.svg
   static const String imagesPayment = "assets/images/payment.svg";
@@ -153,6 +181,10 @@ class Assets {
   /// Assets for imagesProfilePicture
   /// assets/images/profile_picture.png
   static const String imagesProfilePicture = "assets/images/profile_picture.png";
+
+  /// Assets for imagesPulmonary
+  /// assets/images/pulmonary.png
+  static const String imagesPulmonary = "assets/images/pulmonary.png";
 
   /// Assets for imagesRedCircle
   /// assets/images/red_circle.svg
