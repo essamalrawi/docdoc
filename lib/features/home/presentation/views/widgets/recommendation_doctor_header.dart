@@ -1,6 +1,8 @@
 import 'package:docdoc/core/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 
+import '../recommendation_doctor_view.dart';
+
 class RecommendationDoctorHeader extends StatelessWidget {
   const RecommendationDoctorHeader({super.key});
 
@@ -20,12 +22,20 @@ class RecommendationDoctorHeader extends StatelessWidget {
                 height: 1.60,
               ),
             ),
-            Text(
-              'See All',
-              textAlign: TextAlign.right,
-              style: AppStyles.styleRegular12px(
-                context,
-              ).copyWith(color: const Color(0xFF247CFF), height: 1.50),
+            InkWell(
+              onTap: () {
+                Navigator.pushNamed(
+                  context,
+                  RecommendationDoctorView.routeName,
+                );
+              },
+              child: Text(
+                'See All',
+                textAlign: TextAlign.right,
+                style: AppStyles.styleRegular12px(
+                  context,
+                ).copyWith(color: const Color(0xFF247CFF), height: 1.50),
+              ),
             ),
           ],
         ),

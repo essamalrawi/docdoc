@@ -25,10 +25,6 @@ class FindNearbyViewBody extends StatelessWidget {
             child: FindNearbySearchBar(),
           ),
           Spacer(),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            //  child: FindNearbyDoctorCard(),
-          ),
           SizedBox(height: 32),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),

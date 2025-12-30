@@ -1,8 +1,6 @@
-import 'package:docdoc/core/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 import '../../../domain/entities/doctor_speciality_entity.dart';
 import 'doctor_speciality_app_bar.dart';
-import 'package:docdoc/core/utils/app_styles.dart';
 
 class DoctorSpecialityViewBody extends StatelessWidget {
   const DoctorSpecialityViewBody({super.key});
@@ -17,7 +15,6 @@ class DoctorSpecialityViewBody extends StatelessWidget {
           child: DoctorSpecialityAppBar(),
         ),
         SizedBox(height: 42),
-
         Expanded(
           child: GridView.count(
             padding: EdgeInsets.symmetric(horizontal: 32),

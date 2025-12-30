@@ -98,6 +98,10 @@ class Assets {
   /// assets/images/icons/check.svg
   static const String imagesIconsCheck = "assets/images/icons/check.svg";
 
+  /// Assets for imagesIconsDots
+  /// assets/images/icons/dots.svg
+  static const String imagesIconsDots = "assets/images/icons/dots.svg";
+
   /// Assets for imagesIconsFrame
   /// assets/images/icons/frame.png
   static const String imagesIconsFrame = "assets/images/icons/frame.png";
@@ -129,6 +133,10 @@ class Assets {
   /// Assets for imagesIconsSetting
   /// assets/images/icons/setting.svg
   static const String imagesIconsSetting = "assets/images/icons/setting.svg";
+
+  /// Assets for imagesIconsSort
+  /// assets/images/icons/sort.svg
+  static const String imagesIconsSort = "assets/images/icons/sort.svg";
 
   /// Assets for imagesIconsStar
   /// assets/images/icons/star.svg
