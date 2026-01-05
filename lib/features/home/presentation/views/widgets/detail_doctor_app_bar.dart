@@ -3,8 +3,8 @@ import 'package:docdoc/core/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class RecommendationDoctorAppBar extends StatelessWidget {
-  const RecommendationDoctorAppBar({super.key});
+class DetailDoctorAppBar extends StatelessWidget {
+  const DetailDoctorAppBar({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class RecommendationDoctorAppBar extends StatelessWidget {
         ),
         Spacer(),
         Text(
-          'Recommendation Doctor',
+          'Dr Randy Wigham',
           style: AppStyles.styleRegular18px(context).copyWith(
             color: const Color(0xFF242424),
             fontWeight: FontWeight.w600,

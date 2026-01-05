@@ -14,6 +14,10 @@ class Assets {
   /// assets/images/babe.png
   static const String imagesBabe = "assets/images/babe.png";
 
+  /// Assets for imagesBar
+  /// assets/images/bar.svg
+  static const String imagesBar = "assets/images/bar.svg";
+
   /// Assets for imagesBrain
   /// assets/images/brain.png
   static const String imagesBrain = "assets/images/brain.png";
@@ -69,6 +73,10 @@ class Assets {
   /// Assets for imagesGoogleLogo
   /// assets/images/google_logo.svg
   static const String imagesGoogleLogo = "assets/images/google_logo.svg";
+
+  /// Assets for imagesGreyStar
+  /// assets/images/grey_star.svg
+  static const String imagesGreyStar = "assets/images/grey_star.svg";
 
   /// Assets for imagesHepatology
   /// assets/images/hepatology.png
@@ -150,6 +158,10 @@ class Assets {
   /// assets/images/kidneys.png
   static const String imagesKidneys = "assets/images/kidneys.png";
 
+  /// Assets for imagesMessageText
+  /// assets/images/message_text.svg
+  static const String imagesMessageText = "assets/images/message_text.svg";
+
   /// Assets for imagesNativeSplash
   /// assets/images/native_splash.png
   static const String imagesNativeSplash = "assets/images/native_splash.png";
@@ -213,5 +225,9 @@ class Assets {
   /// Assets for imagesWallet
   /// assets/images/wallet.svg
   static const String imagesWallet = "assets/images/wallet.svg";
+
+  /// Assets for imagesWhiteStar
+  /// assets/images/white_star.svg
+  static const String imagesWhiteStar = "assets/images/white_star.svg";
 }
 

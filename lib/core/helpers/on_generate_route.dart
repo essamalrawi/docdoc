@@ -9,6 +9,7 @@ import 'package:docdoc/features/on_boarding/presentation/views/widgets/on_boardi
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../features/home/presentation/views/detail_doctor_view.dart';
 import '../../features/home/presentation/views/doctor_speciality_view.dart';
 import '../../features/home/presentation/views/find_nearby_view.dart';
 import '../../features/home/presentation/views/notification_view.dart';
@@ -39,13 +40,14 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
       return CupertinoPageRoute(builder: (context) => NotificationView());
     case FindNearbyView.routeName:
       return CupertinoPageRoute(builder: (context) => FindNearbyView());
+    case DetailDoctorView.routeName:
+      return CupertinoPageRoute(builder: (context) => DetailDoctorView());
     case DoctorSpecialityView.routeName:
       return CupertinoPageRoute(builder: (context) => DoctorSpecialityView());
     case RecommendationDoctorView.routeName:
       return CupertinoPageRoute(
         builder: (context) => RecommendationDoctorView(),
       );
-
     default:
       return MaterialPageRoute(builder: (context) => const Scaffold());
   }

@@ -1,3 +1,5 @@
+import 'package:docdoc/features/home/presentation/views/detail_doctor_view.dart';
+import 'package:docdoc/features/home/presentation/views/widgets/detail_doctor_app_bar.dart';
 import 'package:docdoc/features/home/presentation/views/widgets/recommendation_doctor_app_bar.dart';
 import 'package:docdoc/features/home/presentation/views/widgets/recommendation_doctor_card.dart';
 import 'package:docdoc/features/home/presentation/views/widgets/recommendation_doctor_search_bar.dart';
@@ -32,7 +34,12 @@ class RecommendationDoctorViewBody extends StatelessWidget {
           delegate: SliverChildBuilderDelegate((context, index) {
             return Padding(
               padding: const EdgeInsets.only(left: 16, right: 16, bottom: 12),
-              child: RecommendationDoctorCard(),
+              child: InkWell(
+                onTap: () {
+                  Navigator.pushNamed(context, DetailDoctorView.routeName);
+                },
+                child: RecommendationDoctorCard(),
+              ),
             );
           }, childCount: 12),
         ),

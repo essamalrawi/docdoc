@@ -1,5 +1,6 @@
 import 'package:docdoc/constants/assets.dart';
 import 'package:docdoc/features/home/presentation/views/widgets/custom_recommendation_doctor_text_field.dart';
+import 'package:docdoc/features/home/presentation/views/widgets/sort_by_bottom_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -37,7 +38,17 @@ class RecommendationDoctorSearchBar extends StatelessWidget {
               borderRadius: BorderRadius.circular(12),
             ),
           ),
-          child: SvgPicture.asset(Assets.imagesIconsSort),
+          child: InkWell(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (context) {
+                  return SortByBottomSheet();
+                },
+              );
+            },
+            child: SvgPicture.asset(Assets.imagesIconsSort),
+          ),
         ),
       ],
     );
