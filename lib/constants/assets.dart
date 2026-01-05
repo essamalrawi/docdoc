@@ -158,6 +158,10 @@ class Assets {
   /// assets/images/kidneys.png
   static const String imagesKidneys = "assets/images/kidneys.png";
 
+  /// Assets for imagesMap
+  /// assets/images/map.png
+  static const String imagesMap = "assets/images/map.png";
+
   /// Assets for imagesMessageText
   /// assets/images/message_text.svg
   static const String imagesMessageText = "assets/images/message_text.svg";
@@ -194,6 +198,10 @@ class Assets {
   /// assets/images/person.png
   static const String imagesPerson = "assets/images/person.png";
 
+  /// Assets for imagesPerson2
+  /// assets/images/person_2.png
+  static const String imagesPerson2 = "assets/images/person_2.png";
+
   /// Assets for imagesPersonBar
   /// assets/images/person_bar.png
   static const String imagesPersonBar = "assets/images/person_bar.png";
@@ -217,6 +225,14 @@ class Assets {
   /// Assets for imagesSuccessCalendar
   /// assets/images/success_calendar.svg
   static const String imagesSuccessCalendar = "assets/images/success_calendar.svg";
+
+  /// Assets for imagesTestDog
+  /// assets/images/test_dog.png
+  static const String imagesTestDog = "assets/images/test_dog.png";
+
+  /// Assets for imagesTestPerson
+  /// assets/images/test_person.jpg
+  static const String imagesTestPerson = "assets/images/test_person.jpg";
 
   /// Assets for imagesVideo
   /// assets/images/video.svg

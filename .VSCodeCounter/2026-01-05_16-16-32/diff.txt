@@ -1,0 +1,57 @@
+Date : 2026-01-05 16:16:32
+Directory : c:\Dev\docdoc\lib
+Total : 24 files,  794 codes, 11 comments, 81 blanks, all 886 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         24 |        794 |         11 |         81 |        886 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                       |         24 |        794 |         11 |         81 |        886 |
+| constants                                                                                               |          1 |          6 |         12 |          6 |         24 |
+| core                                                                                                    |          1 |          8 |          0 |         -1 |          7 |
+| core\helpers                                                                                            |          1 |          8 |          0 |         -1 |          7 |
+| features                                                                                                |         22 |        780 |         -1 |         76 |        855 |
+| features\home                                                                                           |         22 |        780 |         -1 |         76 |        855 |
+| features\home\presentation                                                                              |         22 |        780 |         -1 |         76 |        855 |
+| features\home\presentation\views                                                                        |         22 |        780 |         -1 |         76 |        855 |
+| features\home\presentation\views (Files)                                                                |          2 |         20 |          0 |          8 |         28 |
+| features\home\presentation\views\widgets                                                                |         20 |        760 |         -1 |         68 |        827 |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Dev\docdoc\lib\constants\assets.dart                                                                 | Dart     |          6 |         12 |          6 |         24 |
+| c:\Dev\docdoc\lib\core\helpers\on_generate_route.dart                                                   | Dart     |          8 |          0 |         -1 |          7 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\detail_doctor_view.dart                              | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\recommendation_doctor_view.dart                      | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\about_page_item.dart                         | Dart     |         97 |          0 |          4 |        101 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\active_speciality_widget.dart                | Dart     |         26 |          0 |          5 |         31 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\active_star_widget.dart                      | Dart     |         34 |          0 |          4 |         38 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\custom_recommendation_doctor_text_field.dart | Dart     |         21 |          0 |          3 |         24 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_app_bar.dart                   | Dart     |         55 |          0 |          3 |         58 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_card.dart                      | Dart     |         75 |          0 |          3 |         78 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_page_view.dart                 | Dart     |          9 |          0 |          4 |         13 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_view_body.dart                 | Dart     |         30 |          0 |          6 |         36 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\doctor_speciality_view_body.dart             | Dart     |         -2 |          0 |         -1 |         -3 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\find_nearby_view_body.dart                   | Dart     |         -3 |         -1 |          0 |         -4 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\location_page_item.dart                      | Dart     |         40 |          0 |          3 |         43 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\rating_list_widget.dart                      | Dart     |         33 |          0 |          6 |         39 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\recommendation_doctor_app_bar.dart           | Dart     |         55 |          0 |          3 |         58 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\recommendation_doctor_header.dart            | Dart     |          9 |          0 |          1 |         10 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\recommendation_doctor_search_bar.dart        | Dart     |         54 |          0 |          3 |         57 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\recommendation_doctor_view_body.dart         | Dart     |         47 |          0 |          3 |         50 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\sort_by_bottom_sheet.dart                    | Dart     |         82 |          0 |          3 |         85 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\speciality_list_widget.dart                  | Dart     |         33 |          0 |          6 |         39 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\un_active_speciality_widget.dart             | Dart     |         28 |          0 |          5 |         33 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\un_active_star_widget.dart                   | Dart     |         37 |          0 |          4 |         41 |
+| Total                                                                                                   |          |        794 |         11 |         81 |        886 |
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

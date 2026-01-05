@@ -1,5 +1,8 @@
 import 'package:docdoc/core/utils/app_styles.dart';
+import 'package:docdoc/core/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../../constants/assets.dart';
 
 class LocationPageItem extends StatelessWidget {
   const LocationPageItem({super.key});
@@ -26,6 +29,7 @@ class LocationPageItem extends StatelessWidget {
             letterSpacing: 0.20,
           ),
         ),
+        SizedBox(height: 18),
         Text(
           'Location Map',
           style: TextStyle(
@@ -36,6 +40,8 @@ class LocationPageItem extends StatelessWidget {
             height: 1.20,
           ),
         ),
+        SizedBox(height: 12),
+        Image.asset(Assets.imagesMap),
       ],
     );
   }

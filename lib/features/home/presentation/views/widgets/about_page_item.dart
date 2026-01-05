@@ -92,8 +92,6 @@ class AboutPageItem extends StatelessWidget {
             letterSpacing: 0.20,
           ),
         ),
-        SizedBox(height: 33),
-        CustomButton(text: 'Make An Appointment', onPressed: () {}),
       ],
     );
   }
