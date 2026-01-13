@@ -158,6 +158,10 @@ class Assets {
   /// assets/images/kidneys.png
   static const String imagesKidneys = "assets/images/kidneys.png";
 
+  /// Assets for imagesLeftArrow
+  /// assets/images/left_arrow.svg
+  static const String imagesLeftArrow = "assets/images/left_arrow.svg";
+
   /// Assets for imagesMap
   /// assets/images/map.png
   static const String imagesMap = "assets/images/map.png";
@@ -217,6 +221,10 @@ class Assets {
   /// Assets for imagesRedCircle
   /// assets/images/red_circle.svg
   static const String imagesRedCircle = "assets/images/red_circle.svg";
+
+  /// Assets for imagesRightArrow
+  /// assets/images/right_arrow.svg
+  static const String imagesRightArrow = "assets/images/right_arrow.svg";
 
   /// Assets for imagesSplashScreenBackground
   /// assets/images/splash_screen_background.png

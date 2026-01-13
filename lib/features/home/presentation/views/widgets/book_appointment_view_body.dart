@@ -1,6 +1,7 @@
 import 'package:docdoc/features/home/presentation/views/widgets/book_appointment_appbar.dart';
 import 'package:flutter/material.dart';
 import 'appointment_state_widget.dart';
+import 'book_appointment_calender.dart';
 
 class BookAppointmentViewBody extends StatelessWidget {
   const BookAppointmentViewBody({super.key});
@@ -19,6 +20,12 @@ class BookAppointmentViewBody extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 46),
           child: AppointmentStateWidget(),
+        ),
+
+        SizedBox(height: 32),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 24),
+          child: BookAppointmentCalender(),
         ),
       ],
     );

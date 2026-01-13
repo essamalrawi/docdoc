@@ -1,0 +1,42 @@
+Date : 2026-01-13 18:18:45
+Directory : c:\Dev\docdoc\lib
+Total : 10 files,  206 codes, -4 comments, 36 blanks, all 238 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         10 |        206 |         -4 |         36 |        238 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                             | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                |         10 |        206 |         -4 |         36 |        238 |
+| core                                                                                             |          1 |          3 |          0 |          0 |          3 |
+| core\helpers                                                                                     |          1 |          3 |          0 |          0 |          3 |
+| features                                                                                         |          9 |        203 |         -4 |         36 |        235 |
+| features\home                                                                                    |          9 |        203 |         -4 |         36 |        235 |
+| features\home\presentation                                                                       |          9 |        203 |         -4 |         36 |        235 |
+| features\home\presentation\views                                                                 |          9 |        203 |         -4 |         36 |        235 |
+| features\home\presentation\views (Files)                                                         |          1 |         10 |          0 |          4 |         14 |
+| features\home\presentation\views\widgets                                                         |          8 |        193 |         -4 |         32 |        221 |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                         | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Dev\docdoc\lib\core\helpers\on_generate_route.dart                                            | Dart     |          3 |          0 |          0 |          3 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\book_appointment_view.dart                    | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\appointment_state_widget.dart         | Dart     |         34 |          0 |          3 |         37 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\book_appointment_appbar.dart          | Dart     |         40 |          0 |          4 |         44 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\book_appointment_view_body.dart       | Dart     |         23 |          0 |          4 |         27 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\container_status_color_widget.dart    | Dart     |         34 |          0 |          5 |         39 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\container_status_widget.dart          | Dart     |         38 |          0 |          5 |         43 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\custom_divider.dart                   | Dart     |         15 |          0 |          3 |         18 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_view_body.dart          | Dart     |         -2 |         -4 |          5 |         -1 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\switcher_doctor_detail_container.dart | Dart     |         11 |          0 |          3 |         14 |
+| Total                                                                                            |          |        206 |         -4 |         36 |        238 |
++--------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
