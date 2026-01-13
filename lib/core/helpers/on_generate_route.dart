@@ -9,6 +9,7 @@ import 'package:docdoc/features/on_boarding/presentation/views/widgets/on_boardi
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../features/home/presentation/views/book_appointment_view.dart';
 import '../../features/home/presentation/views/detail_doctor_view.dart';
 import '../../features/home/presentation/views/doctor_speciality_view.dart';
 import '../../features/home/presentation/views/find_nearby_view.dart';
@@ -48,6 +49,8 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
       return CupertinoPageRoute(
         builder: (context) => RecommendationDoctorView(),
       );
+    case BookAppointmentView.routeName:
+      return CupertinoPageRoute(builder: (context) => BookAppointmentView());
     default:
       return MaterialPageRoute(builder: (context) => const Scaffold());
   }

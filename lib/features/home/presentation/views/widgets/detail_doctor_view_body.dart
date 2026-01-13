@@ -1,4 +1,5 @@
 import 'package:docdoc/core/widgets/custom_button.dart';
+import 'package:docdoc/features/home/presentation/views/book_appointment_view.dart';
 import 'package:docdoc/features/home/presentation/views/widgets/detail_doctor_page_view.dart';
 import 'package:docdoc/features/home/presentation/views/widgets/switcher_doctor_detail_container.dart';
 import 'package:flutter/material.dart';
@@ -84,7 +85,12 @@ class _DetailDoctorViewBodyState extends State<DetailDoctorViewBody> {
 
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 24),
-          child: CustomButton(text: "Make An Appointment", onPressed: () {}),
+          child: CustomButton(
+            text: "Make An Appointment",
+            onPressed: () {
+              Navigator.pushNamed(context, BookAppointmentView.routeName);
+            },
+          ),
         ),
 
         const SizedBox(height: 16),
