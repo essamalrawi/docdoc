@@ -1,0 +1,38 @@
+Date : 2026-01-05 20:48:24
+Directory : c:\Dev\docdoc\lib
+Total : 8 files,  278 codes, 12 comments, 34 blanks, all 324 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |          8 |        278 |         12 |         34 |        324 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                             | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                |          8 |        278 |         12 |         34 |        324 |
+| constants                                                                                        |          1 |          4 |          8 |          4 |         16 |
+| features                                                                                         |          7 |        274 |          4 |         30 |        308 |
+| features\home                                                                                    |          7 |        274 |          4 |         30 |        308 |
+| features\home\presentation                                                                       |          7 |        274 |          4 |         30 |        308 |
+| features\home\presentation\views                                                                 |          7 |        274 |          4 |         30 |        308 |
+| features\home\presentation\views\widgets                                                         |          7 |        274 |          4 |         30 |        308 |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                         | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Dev\docdoc\lib\constants\assets.dart                                                          | Dart     |          4 |          8 |          4 |         16 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\about_page_item.dart                  | Dart     |         -2 |          0 |          0 |         -2 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_page_view.dart          | Dart     |         12 |          0 |          0 |         12 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_view_body.dart          | Dart     |         55 |          4 |          7 |         66 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\location_page_item.dart               | Dart     |          5 |          0 |          1 |          6 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\review_card.dart                      | Dart     |         81 |          0 |          5 |         86 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\review_page_item.dart                 | Dart     |         35 |          0 |          4 |         39 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\switcher_doctor_detail_container.dart | Dart     |         88 |          0 |         13 |        101 |
+| Total                                                                                            |          |        278 |         12 |         34 |        324 |
++--------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

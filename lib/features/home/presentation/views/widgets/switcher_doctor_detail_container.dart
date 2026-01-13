@@ -5,11 +5,11 @@ class SwitcherDoctorDetailContainer extends StatefulWidget {
   const SwitcherDoctorDetailContainer({
     super.key,
     this.onChanged,
-    required this.customIndex,
+    required this.valueNotifier,
   });
 
   final void Function(int)? onChanged;
-  final int customIndex;
+  final ValueNotifier<int> valueNotifier;
 
   @override
   State<SwitcherDoctorDetailContainer> createState() =>
@@ -18,20 +18,34 @@ class SwitcherDoctorDetailContainer extends StatefulWidget {
 
 class _SwitcherDoctorDetailContainerState
     extends State<SwitcherDoctorDetailContainer> {
-  late int tappedIndex = widget.customIndex;
+  @override
+  void initState() {
+    super.initState();
+    widget.valueNotifier.addListener(_onValueChanged);
+  }
+
+  void _onValueChanged() {
+    setState(() {});
+  }
+
+  @override
+  void dispose() {
+    widget.valueNotifier.removeListener(_onValueChanged);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
+    final currentIndex = widget.valueNotifier.value;
+
     return Row(
-      children: List.generate(3, (index) {
+      children: List.generate(tabs.length, (index) {
         return Expanded(
           child: InkWell(
             onTap: () {
               widget.onChanged?.call(index);
-              tappedIndex = index;
-              setState(() {});
             },
-            child: tappedIndex == index
+            child: currentIndex == index
                 ? BlueContainer(text: tabs[index])
                 : GreyContainer(text: tabs[index]),
           ),

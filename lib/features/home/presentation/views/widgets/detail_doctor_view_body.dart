@@ -13,24 +13,19 @@ class DetailDoctorViewBody extends StatefulWidget {
 }
 
 class _DetailDoctorViewBodyState extends State<DetailDoctorViewBody> {
-  late PageController pageController;
-
-  var currentPage = 0;
+  final ValueNotifier<int> _pageIndexNotifier = ValueNotifier(0);
+  late final PageController pageController;
 
   @override
   void initState() {
-    pageController = PageController();
-
-    // pageController.addListener(() {
-    //   currentPage = pageController.page!.round();
-    //   setState(() {});
-    // });
     super.initState();
+    pageController = PageController();
   }
 
   @override
   void dispose() {
     pageController.dispose();
+    _pageIndexNotifier.dispose();
     super.dispose();
   }
 
@@ -38,25 +33,30 @@ class _DetailDoctorViewBodyState extends State<DetailDoctorViewBody> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(height: 12),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+        const SizedBox(height: 12),
+
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 16),
           child: DetailDoctorAppBar(),
         ),
-        SizedBox(height: 33),
 
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24.0),
+        const SizedBox(height: 33),
+
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 24),
           child: DetailDoctorCard(),
         ),
-        SizedBox(height: 33),
+
+        const SizedBox(height: 33),
 
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24.0),
+          padding: const EdgeInsets.symmetric(horizontal: 24),
           child: SwitcherDoctorDetailContainer(
-            customIndex: currentPage,
+            valueNotifier: _pageIndexNotifier,
             onChanged: (index) {
               if (!pageController.hasClients) return;
+
+              _pageIndexNotifier.value = index;
               pageController.animateToPage(
                 index,
                 duration: const Duration(milliseconds: 300),
@@ -65,36 +65,29 @@ class _DetailDoctorViewBodyState extends State<DetailDoctorViewBody> {
             },
           ),
         ),
-        SizedBox(height: 32),
+
+        const SizedBox(height: 32),
+
         Expanded(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24.0),
+            padding: const EdgeInsets.symmetric(horizontal: 24),
             child: DetailDoctorPageView(
               pageController: pageController,
               onPageChanged: (index) {
-                currentPage = index;
-                 
-                setState(() {});
+                _pageIndexNotifier.value = index;
               },
             ),
           ),
         ),
-        SizedBox(height: 16),
 
-        Row(
-          children: [
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                child: CustomButton(
-                  text: "Make An Appointment",
-                  onPressed: () {},
-                ),
-              ),
-            ),
-          ],
+        const SizedBox(height: 16),
+
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 24),
+          child: CustomButton(text: "Make An Appointment", onPressed: () {}),
         ),
-        SizedBox(height: 16),
+
+        const SizedBox(height: 16),
       ],
     );
   }

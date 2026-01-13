@@ -1,0 +1,133 @@
+Date : 2026-01-05 20:48:24
+Directory : c:\Dev\docdoc\lib
+Total : 76 files,  3545 codes, 135 comments, 391 blanks, all 4071 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         76 |      3,545 |        135 |        391 |      4,071 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                       |         76 |      3,545 |        135 |        391 |      4,071 |
+| . (Files)                                                                                               |          1 |         19 |          0 |          4 |         23 |
+| constants                                                                                               |          1 |         64 |        123 |         63 |        250 |
+| core                                                                                                    |          4 |        151 |          7 |         22 |        180 |
+| core\helpers                                                                                            |          1 |         52 |          0 |          3 |         55 |
+| core\utils                                                                                              |          2 |         67 |          7 |         16 |         90 |
+| core\widgets                                                                                            |          1 |         32 |          0 |          3 |         35 |
+| features                                                                                                |         70 |      3,311 |          5 |        302 |      3,618 |
+| features\auth                                                                                           |         20 |      1,045 |          1 |         78 |      1,124 |
+| features\auth\presentation                                                                              |         20 |      1,045 |          1 |         78 |      1,124 |
+| features\auth\presentation\manager                                                                      |          2 |         18 |          0 |         10 |         28 |
+| features\auth\presentation\manager\cubits                                                               |          2 |         18 |          0 |         10 |         28 |
+| features\auth\presentation\manager\cubits\otp_cubit                                                     |          2 |         18 |          0 |         10 |         28 |
+| features\auth\presentation\views                                                                        |         18 |      1,027 |          1 |         68 |      1,096 |
+| features\auth\presentation\views (Files)                                                                |          6 |         67 |          0 |         12 |         79 |
+| features\auth\presentation\views\widgets                                                                |         12 |        960 |          1 |         56 |      1,017 |
+| features\home                                                                                           |         44 |      2,062 |          4 |        195 |      2,261 |
+| features\home\domain                                                                                    |          1 |         23 |          0 |          4 |         27 |
+| features\home\domain\entities                                                                           |          1 |         23 |          0 |          4 |         27 |
+| features\home\presentation                                                                              |         43 |      2,039 |          4 |        191 |      2,234 |
+| features\home\presentation\views                                                                        |         43 |      2,039 |          4 |        191 |      2,234 |
+| features\home\presentation\views (Files)                                                                |          6 |         60 |          0 |         22 |         82 |
+| features\home\presentation\views\widgets                                                                |         37 |      1,979 |          4 |        169 |      2,152 |
+| features\main                                                                                           |          4 |        163 |          0 |         24 |        187 |
+| features\main\domain                                                                                    |          1 |         22 |          0 |          4 |         26 |
+| features\main\domain\entites                                                                            |          1 |         22 |          0 |          4 |         26 |
+| features\main\presentation                                                                              |          3 |        141 |          0 |         20 |        161 |
+| features\main\presentation\views                                                                        |          3 |        141 |          0 |         20 |        161 |
+| features\main\presentation\views (Files)                                                                |          1 |         40 |          0 |          6 |         46 |
+| features\main\presentation\views\widgets                                                                |          2 |        101 |          0 |         14 |        115 |
+| features\on_boarding                                                                                    |          2 |         41 |          0 |          5 |         46 |
+| features\on_boarding\presentation                                                                       |          2 |         41 |          0 |          5 |         46 |
+| features\on_boarding\presentation\views                                                                 |          2 |         41 |          0 |          5 |         46 |
+| features\on_boarding\presentation\views\widgets                                                         |          2 |         41 |          0 |          5 |         46 |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Dev\docdoc\lib\constants\assets.dart                                                                 | Dart     |         64 |        123 |         63 |        250 |
+| c:\Dev\docdoc\lib\core\helpers\on_generate_route.dart                                                   | Dart     |         52 |          0 |          3 |         55 |
+| c:\Dev\docdoc\lib\core\utils\app_styles.dart                                                            | Dart     |         57 |          7 |         12 |         76 |
+| c:\Dev\docdoc\lib\core\utils\size_config.dart                                                           | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\core\widgets\custom_button.dart                                                       | Dart     |         32 |          0 |          3 |         35 |
+| c:\Dev\docdoc\lib\features\auth\presentation\manager\cubits\otp_cubit\otp_cubit.dart                    | Dart     |         13 |          0 |          6 |         19 |
+| c:\Dev\docdoc\lib\features\auth\presentation\manager\cubits\otp_cubit\otp_state.dart                    | Dart     |          5 |          0 |          4 |          9 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\face_id_view.dart                                    | Dart     |         10 |          0 |          2 |         12 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\fill_your_profile_view.dart                          | Dart     |         10 |          0 |          2 |         12 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\forget_password_view.dart                            | Dart     |         10 |          0 |          2 |         12 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\otp_verfication_view.dart                            | Dart     |         17 |          0 |          2 |         19 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\sigh_in_view.dart                                    | Dart     |         10 |          0 |          2 |         12 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\sign_up_view.dart                                    | Dart     |         10 |          0 |          2 |         12 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\CustomOtpTextFormField.dart                  | Dart     |         58 |          0 |          4 |         62 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\country_text_field.dart                      | Dart     |         50 |          0 |          5 |         55 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\custom_check_box.dart                        | Dart     |         61 |          0 |          7 |         68 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\custom_sign_in_container_icon.dart           | Dart     |         18 |          0 |          2 |         20 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\custom_text_field.dart                       | Dart     |         31 |          0 |          3 |         34 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\face_id_view_body.dart                       | Dart     |         66 |          1 |          3 |         70 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\fill_your_profile_view_body.dart             | Dart     |         73 |          0 |          3 |         76 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\forget_password_view_body.dart               | Dart     |         54 |          0 |          3 |         57 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\otp_form.dart                                | Dart     |         49 |          0 |          7 |         56 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\otp_verfication_view_body.dart               | Dart     |         64 |          0 |          4 |         68 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\sign_in_view_body.dart                       | Dart     |        235 |          0 |          8 |        243 |
+| c:\Dev\docdoc\lib\features\auth\presentation\views\widgets\sign_up_view_body.dart                       | Dart     |        201 |          0 |          7 |        208 |
+| c:\Dev\docdoc\lib\features\home\domain\entities\doctor_speciality_entity.dart                           | Dart     |         23 |          0 |          4 |         27 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\detail_doctor_view.dart                              | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\doctor_speciality_view.dart                          | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\find_nearby_view.dart                                | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\home_view.dart                                       | Dart     |         10 |          0 |          2 |         12 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\notification_view.dart                               | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\recommendation_doctor_view.dart                      | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\about_page_item.dart                         | Dart     |         95 |          0 |          4 |         99 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\active_speciality_widget.dart                | Dart     |         26 |          0 |          5 |         31 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\active_star_widget.dart                      | Dart     |         34 |          0 |          4 |         38 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\custom_home_app_bar.dart                     | Dart     |         51 |          0 |          5 |         56 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\custom_nearby_text_field.dart                | Dart     |         21 |          0 |          3 |         24 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\custom_recommendation_doctor_text_field.dart | Dart     |         21 |          0 |          3 |         24 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_app_bar.dart                   | Dart     |         55 |          0 |          3 |         58 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_card.dart                      | Dart     |         75 |          0 |          3 |         78 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_page_view.dart                 | Dart     |         21 |          0 |          4 |         25 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\detail_doctor_view_body.dart                 | Dart     |         85 |          4 |         13 |        102 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\doctor_speciality_app_bar.dart               | Dart     |         40 |          0 |          3 |         43 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\doctor_speciality_section.dart               | Dart     |         60 |          0 |          5 |         65 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\doctor_speciality_view_body.dart             | Dart     |         55 |          0 |          3 |         58 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\find_nearby_app_bar.dart                     | Dart     |         28 |          0 |          3 |         31 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\find_nearby_doctor_card.dart                 | Dart     |         61 |          0 |          3 |         64 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\find_nearby_search_bar.dart                  | Dart     |         43 |          0 |          3 |         46 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\find_nearby_section.dart                     | Dart     |         88 |          0 |          5 |         93 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\find_nearby_view_body.dart                   | Dart     |         36 |          0 |          3 |         39 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\home_view_body.dart                          | Dart     |         42 |          0 |          3 |         45 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\location_page_item.dart                      | Dart     |         45 |          0 |          4 |         49 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\notification_alert.dart                      | Dart     |         37 |          0 |          4 |         41 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\notification_view_app_bar.dart               | Dart     |         58 |          0 |          3 |         61 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\notification_view_body.dart                  | Dart     |        188 |          0 |         13 |        201 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\rating_list_widget.dart                      | Dart     |         33 |          0 |          6 |         39 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\recommendation_doctor_app_bar.dart           | Dart     |         55 |          0 |          3 |         58 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\recommendation_doctor_card.dart              | Dart     |         62 |          0 |          3 |         65 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\recommendation_doctor_header.dart            | Dart     |         42 |          0 |          4 |         46 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\recommendation_doctor_search_bar.dart        | Dart     |         54 |          0 |          3 |         57 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\recommendation_doctor_view_body.dart         | Dart     |         47 |          0 |          3 |         50 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\review_card.dart                             | Dart     |         81 |          0 |          5 |         86 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\review_page_item.dart                        | Dart     |         35 |          0 |          4 |         39 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\sort_by_bottom_sheet.dart                    | Dart     |         82 |          0 |          3 |         85 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\speciality_icon_widget.dart                  | Dart     |         37 |          0 |          5 |         42 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\speciality_list_widget.dart                  | Dart     |         33 |          0 |          6 |         39 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\switcher_doctor_detail_container.dart        | Dart     |         88 |          0 |         13 |        101 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\un_active_speciality_widget.dart             | Dart     |         28 |          0 |          5 |         33 |
+| c:\Dev\docdoc\lib\features\home\presentation\views\widgets\un_active_star_widget.dart                   | Dart     |         37 |          0 |          4 |         41 |
+| c:\Dev\docdoc\lib\features\main\domain\entites\bottom_navigation_bar_entity.dart                        | Dart     |         22 |          0 |          4 |         26 |
+| c:\Dev\docdoc\lib\features\main\presentation\views\main_view.dart                                       | Dart     |         40 |          0 |          6 |         46 |
+| c:\Dev\docdoc\lib\features\main\presentation\views\widgets\custom_bottom_navigation_bar.dart            | Dart     |         91 |          0 |         10 |        101 |
+| c:\Dev\docdoc\lib\features\main\presentation\views\widgets\main_view_body.dart                          | Dart     |         10 |          0 |          4 |         14 |
+| c:\Dev\docdoc\lib\features\on_boarding\presentation\views\widgets\on_boarding_view.dart                 | Dart     |         10 |          0 |          2 |         12 |
+| c:\Dev\docdoc\lib\features\on_boarding\presentation\views\widgets\on_boarding_view_body.dart            | Dart     |         31 |          0 |          3 |         34 |
+| c:\Dev\docdoc\lib\main.dart                                                                             | Dart     |         19 |          0 |          4 |         23 |
+| Total                                                                                                   |          |      3,545 |        135 |        391 |      4,071 |
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
